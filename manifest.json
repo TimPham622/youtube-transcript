@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Transcript Copier",
+  "version": "1.0.0",
+  "description": "Copies raw English YouTube captions to the clipboard.",
+  "permissions": ["activeTab", "scripting", "clipboardWrite"],
+  "host_permissions": [
+    "https://www.youtube.com/*",
+    "https://youtube.com/*"
+  ],
+  "action": {
+    "default_title": "Copy YouTube Transcript",
+    "default_popup": "popup.html"
+  }
+}
